@@ -1,2 +1,4 @@
 # Packages
 gnuradio
+hashcat
+john
