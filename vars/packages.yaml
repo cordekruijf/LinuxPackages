@@ -12,6 +12,7 @@ pacman_list:
   - bitwarden
   - spotify-launcher
   - thunderbird
+  - vlc
 
   # Web / programming
   - node
