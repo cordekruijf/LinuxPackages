@@ -1,12 +1,38 @@
 pacman_list:
   - fuse2 # required for AppImage
+  - nftables
   - git
   - neovim
   - code
   - gnuradio
   - hashcat
   - john
+  - gnome-tweaks
+  - power-profiles-daemon
+  - bitwarden
+  - spotify-launcher
+  - thunderbird
+
+  # Web / programming
+  - node
+  - php
+  - apache
+  - mysql
+
+  # QEMU/KVM
+  - qemu-full
+  - virt-manager
+  - virt-viewer
+  - dnsmasq
+  - bridge-utils
+  - libguestfs
+  - vde2
+  - openbsd-netcat
 
 flatpak_list:
   - com.visualstudio.code
   - org.signal.Signal
+
+services_list:
+  - power-profiles-daemon
+  - libvirtd
