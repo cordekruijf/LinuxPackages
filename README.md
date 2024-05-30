@@ -1,4 +1,5 @@
-# Packages
-gnuradio
-hashcat
-john
+# Installation
+```
+ansible-playbook packages_playbook.yaml
+```
+

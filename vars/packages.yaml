@@ -1,0 +1,11 @@
+pacman_list:
+  - git
+  - neovim
+  - code
+  - gnuradio
+  - hashcat
+  - john
+
+flatpak_list:
+  - com.visualstudio.code
+  - org.signal.Signal

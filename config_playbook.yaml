@@ -1,0 +1,13 @@
+---
+- name: Configure Arch Linux
+  hosts: localhost
+  become: yes
+
+  tasks:
+    - name: Create a symbolic link for nvim
+      ansible.builtin.file:
+        src: /usr/bin/nvim
+        dest: /usr/bin/vi
+        owner: root
+        group: root
+        state: link

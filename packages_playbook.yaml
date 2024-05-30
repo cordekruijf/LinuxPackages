@@ -1,0 +1,27 @@
+---
+- name: Install Pacman and Flatpak packages on Arch Linux
+  hosts: localhost
+  become: yes
+  vars_files:
+    - vars/packages.yaml
+  
+  tasks:
+    - name: Ensure the system is up to date
+      pacman:
+        update_cache: yes
+        upgrade: yes
+
+    - name: Install basic packages
+      pacman:
+        name: "{{ pacman_list }}" 
+        state: present
+
+    - name: Ensure Flatpak is installed
+      pacman:
+        name: flatpak
+        state: present
+
+    - name: Install Flatpak packages
+      community.general.flatpak:
+        name: "{{ flatpak_list }}"
+        state: present
