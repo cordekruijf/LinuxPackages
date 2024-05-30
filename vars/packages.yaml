@@ -1,4 +1,5 @@
 pacman_list:
+  - fuse2 # required for AppImage
   - git
   - neovim
   - code
