@@ -1,18 +1,18 @@
 pacman_list:
   # System
   - usbutils
-
-  # General
+  - dkms
   - fuse2 # required for AppImage
   - nftables
+  - gnome-tweaks
+  - power-profiles-daemon
+
+  # General
   - git
   - neovim
-  - code
   - gnuradio
   - hashcat
   - john
-  - gnome-tweaks
-  - power-profiles-daemon
   - bitwarden
   - spotify-launcher
   - thunderbird
