@@ -1,4 +1,8 @@
 pacman_list:
+  # System
+  - usbutils
+
+  # General
   - fuse2 # required for AppImage
   - nftables
   - git
