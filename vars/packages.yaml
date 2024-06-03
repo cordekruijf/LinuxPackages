@@ -13,6 +13,8 @@ pacman_list:
   - spotify-launcher
   - thunderbird
   - vlc
+  - ttf-liberation
+  - texlive
 
   # Web / programming
   - node
