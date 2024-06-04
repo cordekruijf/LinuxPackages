@@ -19,6 +19,7 @@ pacman_list:
   - vlc
   - ttf-liberation
   - texlive
+  - docker
 
   # Web / programming
   - node
@@ -43,3 +44,4 @@ flatpak_list:
 services_list:
   - power-profiles-daemon
   - libvirtd
+  - docker
