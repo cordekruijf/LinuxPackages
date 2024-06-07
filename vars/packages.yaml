@@ -20,6 +20,8 @@ pacman_list:
   - ttf-liberation
   - texlive
   - docker
+  - docker-compose
+  - discord
 
   # Web / programming
   - node
@@ -40,8 +42,3 @@ pacman_list:
 flatpak_list:
   - com.visualstudio.code
   - org.signal.Signal
-
-services_list:
-  - power-profiles-daemon
-  - libvirtd
-  - docker

@@ -1,0 +1,13 @@
+---
+- name: Start and enable services
+  hosts: localhost
+  become: yes
+  vars_files:
+    - vars/services.yaml
+
+  tasks:
+    - name: Enable and start services
+      ansible.builtin.service:
+        name: "{{ services_list }}"
+        enabled: yes
+        state: started
