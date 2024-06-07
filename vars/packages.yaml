@@ -10,6 +10,7 @@ pacman_list:
   # General
   - git
   - neovim
+  - tmux
   - gnuradio
   - hashcat
   - john
