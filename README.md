@@ -30,3 +30,6 @@ ansible-playbook packages_playbook.yaml
 - ewftools
 - virtualbox
 - flameshot
+- JADX
+- Ghidra
+- Gqrx
