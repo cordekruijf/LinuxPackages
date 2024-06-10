@@ -6,10 +6,17 @@ pacman_list:
   - nftables
   - gnome-tweaks
   - power-profiles-daemon
+  - gparted
+  - cups # printing
+  - wine
+  - wine-gecko
+  - wine-mono
 
   # General
   - git
   - neovim
+  - npm
+  - yarm
   - tmux
   - gnuradio
   - hashcat
@@ -23,9 +30,12 @@ pacman_list:
   - docker
   - docker-compose
   - discord
+  - wireshark-qt
+  - whois
+  - rtl-sdr
 
   # Web / programming
-  - node
+  - nodejs
   - php
   - apache
   - mysql

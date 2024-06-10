@@ -5,3 +5,4 @@ services_list:
   - nvidia-suspend # Enable to fix blackscreen issue
   - nvidia-hibernate
   - nvidia-resume
+  - cups
