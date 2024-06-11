@@ -33,6 +33,7 @@ pacman_list:
   - wireshark-qt
   - whois
   - rtl-sdr
+  - tcpdump
 
   # Web / programming
   - nodejs

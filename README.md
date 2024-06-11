@@ -7,10 +7,23 @@ ansible-playbook packages_playbook.yaml
 - Mount HDD in /hdd
 - Configure Apache
 
+### Add .local/bin to PATH
+Append to ~/.bashrc
+```
+export PATH="$HOME/.local/bin:$PATH"
+```
+
+Reload bash
+```
+source ~/.bashrc
+```
+
+### Curl install
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+```
+
 ## Add packages:
-- wine
-- wireshark
-- whois
 - vagrant
 - unbound/NSD
 - tor
@@ -19,7 +32,6 @@ ansible-playbook packages_playbook.yaml
 - rtl-sdr
 - python
 - openssl
-- nodejs
 - nmap
 - netcat
 - nftables # remove iptables/ufw
