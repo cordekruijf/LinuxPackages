@@ -11,6 +11,7 @@ pacman_list:
   - wine
   - wine-gecko
   - wine-mono
+  - plymouth # Boot screen
 
   # General
   - git
@@ -34,6 +35,8 @@ pacman_list:
   - whois
   - rtl-sdr
   - tcpdump
+  - solaar # Logitech MX keys + Master
+  - bind
 
   # Web / programming
   - nodejs
