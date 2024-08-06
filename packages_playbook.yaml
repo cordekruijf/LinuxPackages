@@ -1,5 +1,5 @@
 ---
-- name: Install Pacman and Flatpak packages on Arch Linux
+- name: Install DNF and Flatpak packages on Fedora Linux
   hosts: localhost
   become: yes
   vars_files:
@@ -7,17 +7,18 @@
   
   tasks:
     - name: Ensure the system is up to date
-      pacman:
-        update_cache: yes
-        upgrade: yes
+      dnf:
+        name: "*"
+        state: latest
+        update_only: yes
 
     - name: Install basic packages
-      pacman:
-        name: "{{ pacman_list }}" 
+      dnf:
+        name: "{{ dnf_list }}" 
         state: present
 
     - name: Ensure Flatpak is installed
-      pacman:
+      dnf:
         name: flatpak
         state: present
 

@@ -1,59 +1,46 @@
-pacman_list:
+dnf_list:
   # System
   - usbutils
   - dkms
-  - fuse2 # required for AppImage
-  - nftables
   - gnome-tweaks
-  - power-profiles-daemon
-  - gparted
-  - cups # printing
-  - wine
-  - wine-gecko
-  - wine-mono
-  - plymouth # Boot screen
+  - akmod-nvidia
+  - grub-customizer
 
   # General
-  - git
   - neovim
   - npm
-  - yarm
-  - tmux
   - gnuradio
   - hashcat
   - john
-  - bitwarden
-  - spotify-launcher
   - thunderbird
   - vlc
-  - ttf-liberation
-  - texlive
+  - texlive-scheme-full
   - docker
   - docker-compose
-  - discord
-  - wireshark-qt
+  - wireshark
   - whois
   - rtl-sdr
-  - tcpdump
   - solaar # Logitech MX keys + Master
-  - bind
+  - kitty
 
   # Web / programming
   - nodejs
-  - php
-  - apache
+  - php-common
+  - php-cli
+  - httpd
   - mysql
+  - java-latest-openjdk.x86_64
 
   # QEMU/KVM
-  - qemu-full
+  - qemu
   - virt-manager
-  - virt-viewer
-  - dnsmasq
   - bridge-utils
   - libguestfs
-  - vde2
-  - openbsd-netcat
 
 flatpak_list:
-  - com.visualstudio.code
   - org.signal.Signal
+  - com.getpostman.Postman
+  - discord
+  - bitwarden
+  - com.spotify.Client
+  - gparted

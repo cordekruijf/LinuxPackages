@@ -32,7 +32,6 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 - rtl-sdr
 - python
 - openssl
-- nmap
 - netcat
 - nftables # remove iptables/ufw
 - mysql
