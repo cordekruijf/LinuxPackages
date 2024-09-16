@@ -5,6 +5,7 @@ dnf_list:
   - gnome-tweaks
   - akmod-nvidia
   - grub-customizer
+  - snapd
 
   # General
   - neovim
