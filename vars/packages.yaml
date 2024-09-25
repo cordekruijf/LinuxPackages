@@ -7,7 +7,8 @@ pacman_list:
   - nftables
   - xorg
   - xorg-server
-  - gdm
+  - gnome
+  - gdm # required for Gnome
   - gnome-tweaks
   - power-profiles-daemon
   - gparted
@@ -42,6 +43,7 @@ pacman_list:
   - tcpdump
   - solaar # Logitech MX keys + Master
   - bind
+  - grub-customizer
 
   # Web / programming
   - nodejs
