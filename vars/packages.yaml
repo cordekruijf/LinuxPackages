@@ -12,6 +12,7 @@ pacman_list:
   - wine-gecko
   - wine-mono
   - plymouth # Boot screen
+  - man
 
   # General
   - git
