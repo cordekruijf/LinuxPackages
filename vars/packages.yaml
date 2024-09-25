@@ -13,9 +13,6 @@ pacman_list:
   - power-profiles-daemon
   - gparted
   - cups # printing
-  - wine
-  - wine-gecko
-  - wine-mono
   - plymouth # Boot screen
   - man
   - openssh
