@@ -6,6 +6,7 @@ pacman_list:
   - nftables
   - xorg
   - xorg-server
+  - gdm
   - gnome-tweaks
   - power-profiles-daemon
   - gparted
@@ -15,6 +16,7 @@ pacman_list:
   - wine-mono
   - plymouth # Boot screen
   - man
+  - openssh
 
   # General
   - firefox
