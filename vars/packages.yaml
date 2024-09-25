@@ -17,13 +17,12 @@ pacman_list:
   - plymouth # Boot screen
   - man
   - openssh
+  - neovim
+  - tmux
 
   # General
   - firefox
-  - neovim
-  - npm
-  - yarm
-  - tmux
+  - yarn
   - gnuradio
   - hashcat
   - john
@@ -48,6 +47,7 @@ pacman_list:
   - php
   - apache
   - mysql
+  - npm
 
   # QEMU/KVM
   - qemu-full
