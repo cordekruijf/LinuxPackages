@@ -4,6 +4,8 @@ pacman_list:
   - dkms
   - fuse2 # required for AppImage
   - nftables
+  - xorg
+  - xorg-server
   - gnome-tweaks
   - power-profiles-daemon
   - gparted
@@ -15,7 +17,7 @@ pacman_list:
   - man
 
   # General
-  - git
+  - firefox
   - neovim
   - npm
   - yarm
