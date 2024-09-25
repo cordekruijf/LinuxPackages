@@ -1,6 +1,7 @@
 pacman_list:
   # System
   - usbutils
+  - linux-headers # required for rtl8812au
   - dkms
   - fuse2 # required for AppImage
   - nftables
