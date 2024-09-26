@@ -9,7 +9,7 @@ pacman_list:
   - xorg-server
   - gnome
   - gdm # required for Gnome
-  - gnome-tweaks
+  - gnome-tweaks # when using Gnome
   - power-profiles-daemon
   - gparted
   - cups # printing
