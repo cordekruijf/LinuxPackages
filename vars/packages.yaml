@@ -41,6 +41,7 @@ pacman_list:
   - solaar # Logitech MX keys + Master
   - bind
   - grub-customizer
+  - kitty
 
   # Web / programming
   - nodejs
