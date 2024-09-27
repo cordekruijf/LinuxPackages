@@ -2,7 +2,7 @@ services_list:
   - power-profiles-daemon
   - libvirtd
   - docker
-  - nvidia-suspend # Enable to fix blackscreen issue
-  - nvidia-hibernate
-  - nvidia-resume
+  # - nvidia-suspend # Enable to fix blackscreen issue
+  # - nvidia-hibernate
+  # - nvidia-resume
   - cups
