@@ -42,6 +42,7 @@ pacman_list:
   - bind
   - grub-customizer
   - kitty
+  - code
 
   # Web / programming
   - nodejs
@@ -61,5 +62,4 @@ pacman_list:
   - openbsd-netcat
 
 flatpak_list:
-  - com.visualstudio.code
   - org.signal.Signal
