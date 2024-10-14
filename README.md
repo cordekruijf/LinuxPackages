@@ -1,6 +1,6 @@
 # Installation
 ```
-ansible-playbook packages_playbook.yaml
+sudo ansible-playbook packages_playbook.yaml -v
 ```
 
 ## TODO:

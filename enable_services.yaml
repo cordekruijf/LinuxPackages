@@ -6,8 +6,26 @@
     - vars/services.yaml
 
   tasks:
-    - name: Enable and start services
+    - name: Enable and start docker
+      ansible.builtin.systemd:
+        name: docker
+        enabled: yes
+        state: started
+
+    - name: Enable and start libvirtd
       ansible.builtin.service:
-        name: "{{ services_list }}"
+        name: libvirtd
+        enabled: yes
+        state: started
+
+    - name: Enable and start LXC
+      ansible.builtin.service:
+        name: lxc
+        enabled: yes
+        state: started
+    
+    - name: Enable and start nftables
+      ansible.builtin.service:
+        name: nftables
         enabled: yes
         state: started

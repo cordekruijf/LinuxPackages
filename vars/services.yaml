@@ -3,6 +3,6 @@ services_list:
   - docker
   - httpd
   - nftables
-  - nvidia-suspend # Enable to fix blackscreen issue
-  - nvidia-hibernate
-  - nvidia-resume
+  # - nvidia-suspend # Enable to fix blackscreen issue
+  # - nvidia-hibernate
+  # - nvidia-resume
